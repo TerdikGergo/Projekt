@@ -36,4 +36,6 @@ if valasztas == 2:
                 x = r.choice(s.ascii_letters)
                 y = y+x
             f.write(str(y) + ";")
-            
+            print()
+            print()
+            print()
