@@ -1,5 +1,7 @@
 # Mechwart Projektmunka
 Készítői: 
-- Szkibák Szabolcs **Weblap készítése**
-- Gubacsi Áron Máté **Rendezési algoritmus**
-- Terdik Gergő **Az adatok generálása**
+| Név     | Feladat |
+| ---      | ---       |
+| Gubacsi Áron Máté | Rendezési algoritmus |
+| Szkibák Szabolcs     | Weblap készítés |
+| Terdik Gergő     | Az adatok generálása |
