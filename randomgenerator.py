@@ -1,9 +1,6 @@
 import random as r
 import string as s
-<<<<<<< HEAD
 
-=======
->>>>>>> 7b2c720025f9ecd87346420216d31b5249c015bf
 valasztas = 0
 while valasztas is not int:
     try:
@@ -15,10 +12,7 @@ while valasztas is not int:
     except ValueError:
         print('Kerlek 1 v 2')
 db = 0
-<<<<<<< HEAD
 
-=======
->>>>>>> 7b2c720025f9ecd87346420216d31b5249c015bf
 while db is not int:
     try:
         db = int(input('Hany darab szamot/szoveget szeretnel generalni: '))
@@ -28,16 +22,12 @@ while db is not int:
             print("xg")
     except ValueError:
         print('Kerlek szamot irj be')
-<<<<<<< HEAD
 
-=======
->>>>>>> 7b2c720025f9ecd87346420216d31b5249c015bf
 if valasztas == 1:
     with open("ki.txt", "w") as f:
         for i in range(db):
             x = r.randint(1,20)
             f.write(str(x) + ';')
-<<<<<<< HEAD
 
 if valasztas == 2:
     alsoertek = int(input("Also ertek: "))
@@ -90,24 +80,3 @@ if db2 == len(x)-1:
     print("Minden adat helyes")
 else:
     print("Valamelyik adat nem helyes")
-=======
-alsoertek = 0
-felsoertek = 0
-while alsoertek is not int and felsoertek is not int:
-    try:
-        alsoertek = int(input("Also ertek: "))
-        felsoertek = int(input("Felso ertek: "))
-        if alsoertek and felsoertek > 0 and felsoertek >= alsoertek:
-            break
-        else:
-            print("xg")
-    except ValueError:
-        print('Kerlek szamot irj be')
-if valasztas == 2:
-    with open("ki.txt", "w") as f:
-        for i in range(db):
-            x = ""
-            for i in range(r.randint(alsoertek, felsoertek)):
-                x = x+r.choice(s.ascii_letters)
-            f.write(str(x) + ";")
->>>>>>> 7b2c720025f9ecd87346420216d31b5249c015bf
