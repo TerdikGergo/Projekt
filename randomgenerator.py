@@ -4,24 +4,24 @@ import string as s
 valasztas = 0
 while valasztas is not int:
     try:
-        valasztas = int(input('Szamokat vagy betuket szeretnel generalni(1 szamok 2 betuk): '))
+        valasztas = int(input('Számokat vagy betűket szeretnél generálni?\n1 Számok generálása, 2 Betűk generálása: '))
         if valasztas == 1 or valasztas == 2:
             break
         else:
-            print("1v2")
+            print("Kérlek az 1es vagy 2es számot írd be!")
     except ValueError:
-        print('Kerlek 1 v 2')
+        print('Számot írj be!')
 db = 0
 
 while db is not int:
     try:
-        db = int(input('Hany darab szamot/szoveget szeretnel generalni: '))
+        db = int(input('Hány darab számot/betűt szeretnál generálni: '))
         if db > 0:
             break
         else:
-            print("xg")
+            print("Nullánál nagyobb számot!")
     except ValueError:
-        print('Kerlek szamot irj be')
+        print('Kérlek számot írj be!')
 
 if valasztas == 1:
     with open("ki.txt", "w") as f:
@@ -30,8 +30,8 @@ if valasztas == 1:
             f.write(str(x) + ';')
 
 if valasztas == 2:
-    alsoertek = int(input("Also ertek: "))
-    felsoertek = int(input("Felso ertek: "))
+    alsoertek = int(input("Alsó értek: "))
+    felsoertek = int(input("Felső értek: "))
     with open("ki.txt", "w") as f:
         for i in range(db):
             y = ""
@@ -45,13 +45,13 @@ iva = 0
 igazvhamis = False
 while iva is not int:
     try:
-        iva = int(input('Szöveget vagy számot szeretnél ellenőrizni(1 szam 2 betuk): '))
+        iva = int(input('Szöveget vagy számot szeretnél ellenőrizni?\n1 Számok ellenőrzése, 2 Betűk ellenőrzése: '))
         if iva == 1 or iva == 2:
             break
         else:
             print("A kettő szám közül válassz!")
     except ValueError:
-        print('Kerlek szamot irj be')
+        print('Kérlek számot írj be!')
 
 db2 = 0
 if iva == 1:
