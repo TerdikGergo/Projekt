@@ -1,5 +1,5 @@
 # Mechwart Projektmunka
-Készítői: 
+## Készítői: 
 | Név     | Feladat |
 | ---      | ---       |
 | Gubacsi Áron Máté | Rendezési algoritmus |
