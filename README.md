@@ -1,4 +1,4 @@
-#Mechwart Projektmunka 
+#Mechwart Projektmunka#
 Készítői: 
 -Szkibák Szabolcs Weblap készítése
 -Gubacsi Áron Máté Rendezési algoritmus
