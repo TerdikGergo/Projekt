@@ -1,0 +1,46 @@
+body{
+    font-size: medium;
+    font-weight: 600;
+    margin: 50px;
+    background-color: rgb(247, 247, 247);
+    color: rgb(172, 149, 149);
+    font-family: "Consolas";
+    background-image: url("preview-50-12250.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: darkred;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul li{
+    color: rgb(172, 149, 149);
+    display: inline-block;
+    width:10em;
+    border:4px ridge rgb(255, 0, 0);
+    border-radius:1.8em;
+    padding:0.5em;
+    font-size:1.2em;
+    text-align: center;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color:rgb(172, 149, 149);
+    transition: 0.45s;
+}
+
+nav ul li a:hover
+{
+    font-weight: bolder;
+    color:red;
+}
+

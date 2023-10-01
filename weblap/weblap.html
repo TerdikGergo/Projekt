@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendezési algoritmusok</title>
+    <h1>Rendezési algoritmusok</h1>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Az Algoritmus Leírása</h2>
+
+    <p1><ul>
+        <li>A program először beolvassa a felhasználótól megadott fájlt (FILEPATH), majd megvizsgálja az adatokat annak érdekében, hogy eldöntse, számokat vagy szövegeket tartalmaz-e.</li><br>
+        <li>A program lehetőséget ad a felhasználónak, hogy kiválassza, melyik rendezési módszert szeretné használni: "Insertion Sort" vagy "Merge Sort".</li><br>
+        <li>Az "Insertion Sort" algoritmus számokat és szövegeket is rendezni tud, és a kiválasztott rendezési sorrendnek megfelelően végzi a rendezést.</li><br>
+        <li>A "Merge Sort" algoritmus is számokat és szövegeket is rendez, és a kiválasztott rendezési sorrendnek megfelelően végzi a rendezést.</li><br>
+    </ul></p1>
+
+    <h2>Hatékonyság és Tárigény</h2>
+
+    <p2><ul>
+        <li>A kód hatékonysága attól függ, hogy milyen méretű adatokat dolgoz fel, és milyen rendezési módszert választ a felhasználó. A "Merge Sort" általában hatékonyabb nagy adathalmazokon, mivel a legrosszabb esetben is O(n log n) időkomplexitással rendelkezik, míg az "Insertion Sort" legrosszabb esetben O(n^2) időkomplexitású.</li><br>
+        <li>A tárigény az adathalmaz méretétől függ, de mindkét rendezési módszer esetében a tárigény O(n) méretű lehet a segédváltozók miatt.</li><br>
+    </ul></p2>
+
+    <h2>Leírás mondatokban és programozási nyelven</h2>
+
+    <p3>A kód Kotlin programot ír, amely lehetővé teszi egy adatfájl beolvasását, az adatok típusának meghatározását és a felhasználó számára két különböző rendezési algoritmus választását.</p3>
+
+    <br>
+
+    <h2>A program lépései</h2>
+<ul style="list-style-type:decimal;">
+    <li>Először a felhasználótól bekéri a fájl elérési útját, majd beolvassa az adatokat a fájlból.</li><br>
+    <li>Megvizsgálja az adatokat annak érdekében, hogy eldöntse, számokat vagy szövegeket tartalmaznak-e.</li><br>
+    <li>A felhasználótól bekéri, hogy melyik rendezési módszert szeretné használni: "Insertion Sort" vagy "Merge Sort".</li><br>
+    <li>A választott rendezési módszernek megfelelően rendezze az adatokat.</li><br>
+    <li>Az "Insertion Sort" esetén külön algoritmusokat alkalmaz számokra és szövegekre.</li><br>
+    <li>A "Merge Sort" esetén is külön algoritmusokat alkalmaz számokra és szövegekre.</li><br>
+    <li>Az új adatelem hozzáadására is lehetőséget ad, ahol a felhasználó megadhatja az új elemet, amelyet az adathalmazba illeszt a helyes sorrendben.</li><br>
+</ul>
+    <br>
+
+    <p>Ez a program lehetővé teszi az adatok rendezését két különböző algoritmussal, attól függően, hogy a felhasználó milyen típusú adatokkal dolgozik, és lehetőséget ad új adatelem hozzáadására is a rendezett adathalmazhoz.</p>
+
+    <pre><code>
+
+    </code></pre>
+    <h2>Források</h2>
+    <nav>
+		<ul>
+			<li><a href="https://www.w3schools.com/python/">w3schools</a></li>
+            <li><a href="https://openai.com/">Chat GPT</a></li>
+            <li><a href="https://stackoverflow.com/">Stack Overflow</a>
+		</ul></a>
+	</nav>
+</body>
+</html>
