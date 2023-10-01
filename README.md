@@ -8,3 +8,4 @@
 
 A `Sorter.jar` fájl lefuttatásához a `JDK (Java Development Kit)` szükséges!
 A parancssorban a `java -jar Sorter.jar` paranccsal futtatható!
+A `sorter.kt` a nyers kódot tartalmazza!
